@@ -171,7 +171,7 @@ BIN_DIR=$BUILD_DIR/.apt/usr/bin
 rm $BIN_DIR/$SHIM
 cat <<EOF >$BIN_DIR/$SHIM
 #!/usr/bin/env bash
-exec \$HOME/.apt/opt/google/$BIN --headless --no-sandbox --disable-gpu \$@
+exec \$HOME/.apt/opt/google/$BIN --headless --no-sandbox \$@
 EOF
 chmod +x $BIN_DIR/$SHIM
 cp $BIN_DIR/$SHIM $BIN_DIR/google-chrome
