@@ -89,6 +89,7 @@ case "$stack" in
       libxss1
       libxtst6
       fonts-liberation
+      inetutils-traceroute
     "
     ;;
   *)
