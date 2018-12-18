@@ -90,7 +90,6 @@ case "$stack" in
       libxtst6
       fonts-liberation
       traceroute
-      inetutils-ping
     "
     ;;
   *)
